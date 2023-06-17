@@ -3,9 +3,9 @@ import React from 'react'
 const Team = () => {
   return (
     <div>
-      Team
+      <h1>Our Team</h1>
     </div>
-  )
+  );
 }
 
 export default Team

@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-
 }
 
 * {
@@ -8,13 +7,17 @@
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-button{
+button {
   border: none;
-background: transparent;
-cursor: pointer;
+  background: transparent;
+  cursor: pointer;
+}
+
+h1 {
+  color: #ae59ff;
 }
