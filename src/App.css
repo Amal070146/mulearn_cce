@@ -6,10 +6,15 @@
 * {
   margin: 0;
   padding: 0;
-background-color: #ffffff;
 }
 
 a{
   text-decoration: none;
   color: black;
+}
+
+button{
+  border: none;
+background: transparent;
+cursor: pointer;
 }
