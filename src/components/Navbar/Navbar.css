@@ -1,0 +1,51 @@
+.navbar-wrapper {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+  background-color: transparent;
+}
+.navbar-wrapper > div {
+  width: fit-content;
+}
+.navbar-left {
+  padding: 0px 35px;
+  background-color: transparent;
+}
+.navbar-left > img,
+.navbar-right > a,
+.navbar-right > a > p {
+  background-color: transparent;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 35px;
+  background-color: transparent;
+}
+
+.navbar-right > button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #6f6fff;
+}
+
+.navbar-mobile {
+  display: none;
+  padding: 0px 35px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 750px) {
+  .navbar-right {
+    display: none;
+  }
+  .navbar-mobile {
+    display: block;
+  }
+}

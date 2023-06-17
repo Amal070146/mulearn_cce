@@ -1,5 +1,5 @@
 .home-wrapper {
-  background: url("../../assets/home/bg-home.png") center center/cover no-repeat;
+  background:#ffffff url("../../assets/home/bg-home.png") center center/cover no-repeat;
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -8,4 +8,5 @@
   align-items: center;
   margin: 0;
   padding: 0;
+  opacity: 1;
 }
