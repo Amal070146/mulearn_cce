@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import "./home.css";
+import bg from '../../assets/home/bg-home.png'
 
 const Home = () => {
   return (
-    <div>
-      home
+    <div className="home-wrapper">
+   
+      
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
