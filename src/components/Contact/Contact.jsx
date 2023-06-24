@@ -12,18 +12,24 @@ const Contact = () => {
             <a href="mailto:mulearn@cce.edu.edu.in">mulearn@cce.edu.edu.in</a>
             <a href="mailto:mulearn@cce.edu.edu.in">mulearn@cce.edu.edu.in</a>
           </div>
-          <div>
+          <div className="contact-left-div-bottom">
             <div>
               <p>100+</p>
-              <p>STUDENTS ENROLLED</p>
+              <p>
+                STUDENTS<br></br>ENROLLED
+              </p>
             </div>
             <div>
               <p>20+</p>
-              <p>STUDENTS ENROLLED</p>
+              <p>
+               LEARNING<br></br>CIRCLES
+              </p>
             </div>
             <div>
               <p>80K+</p>
-              <p>STUDENTS ENROLLED</p>
+              <p>
+                KKARMA<br></br>MINED
+              </p>
             </div>
           </div>
         </div>

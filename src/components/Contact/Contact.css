@@ -1,24 +1,66 @@
-.contact-content-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-.contact-left-div-top{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.contact-right-div{
-    width: 50%;
-}
-.contact-right-div>img{
-    width: 100%;
-    min-width: 250px;
+.contact-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: fit-content;
 }
 
-@media screen and (max-width: 900px){
-    .contact-content-wrapper{
-   flex-direction: column;
+.contact-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
 }
+.contact-left-div {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 50px;
+}
+.contact-left-div-top {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  font-weight: 600;
+
+}
+.contact-left-div-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.contact-left-div-bottom > div > p:nth-child(1) {
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+}
+.contact-left-div-bottom > div > p:nth-child(2) {
+  color: #ae59ff;
+  font-weight: 600;
+
+}
+.contact-right-div {
+  width: 40%;
+}
+.contact-right-div > img {
+  height: fit-content;
+  width: 100%;
+  min-width: 250px;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-content-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-right-div,
+  .contact-left-div {
+    width: 80%;
+  }
 }
