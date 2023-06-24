@@ -1,0 +1,20 @@
+.about-wrapper{
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+/* .pathway-arch{
+
+} */
+.subtract,
+.subtract * {
+  box-sizing: border-box;
+}
+.subtract {
+  position: relative;
+  overflow: visible;
+  max-width: 1100px;
+  max-height: 317px;
+  min-width: 380px;
+}

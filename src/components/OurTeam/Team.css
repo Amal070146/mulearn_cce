@@ -1,0 +1,17 @@
+.team-img-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.team-bg-line,
+.team-bg-line * {
+  box-sizing: border-box;
+}
+.team-bg-line {
+  position: relative;
+  overflow: visible;
+  max-width: 2100px;
+  max-height: 317px;
+  min-width: 380px;
+}

@@ -1,0 +1,24 @@
+.contact-content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.contact-left-div-top{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-right-div{
+    width: 50%;
+}
+.contact-right-div>img{
+    width: 100%;
+    min-width: 250px;
+}
+
+@media screen and (max-width: 900px){
+    .contact-content-wrapper{
+   flex-direction: column;
+}
+}

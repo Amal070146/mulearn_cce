@@ -28,7 +28,7 @@
   padding: 40px 0px;
 }
 .home-space-img {
-  width: 50%;
+  width: 45%;
   min-width: 300px;
 }
 .home-space-img > img {
@@ -36,8 +36,8 @@
   min-width: 300px;
 }
 .home-content-wrapper {
-  position: relative;
   width: 30%;
+  z-index: 0;
 }
 
 .home-content-wrapper > img {
@@ -53,11 +53,9 @@
     padding: 0px 0px;
   }
   .home-content-wrapper {
-    position: relative;
     width: 80%;
     max-width: 550px;
   }
-
 }
 /* .home-content-wrapper .mu {
   width: 100%;
