@@ -1,7 +1,7 @@
-.team-img-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
+.team-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 .team-bg-line,
@@ -14,4 +14,352 @@
   max-width: 2100px;
   max-height: 317px;
   min-width: 380px;
+}
+
+/* dkjbcvjkdabcjk */
+
+.auto-group-dymm-ZvK {
+  flex-shrink: 0;
+  height: 46.1rem;
+  width: 100%;
+}
+
+
+.auto-group-dymm-ZvK {
+  flex-shrink: 0;
+  height: 46.1rem;
+  position: relative;
+  width: 100%;
+
+  .group-JN7 {
+    height: 3.5rem;
+    left: 101.8804rem;
+    object-fit: contain;
+    position: absolute;
+    top: 37.1rem;
+    vertical-align: top;
+    width: 3.5rem;
+  }
+  .group-11d {
+    height: 3.5rem;
+    left: 43.0804rem;
+    object-fit: contain;
+    position: absolute;
+    top: 42.6rem;
+    vertical-align: top;
+    width: 3.5rem;
+  }
+  .group-8rw {
+    height: 3.5rem;
+    left: 182.2804rem;
+    object-fit: contain;
+    position: absolute;
+    top: 33.5rem;
+    vertical-align: top;
+    width: 3.5rem;
+  }
+  .team-line1-fM5 {
+    height: 11.9107rem;
+    left: 0;
+    object-fit: contain;
+    position: absolute;
+    top: 9.8rem;
+    vertical-align: top;
+    width: 201.9rem;
+  }
+  .team1-oCP {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 39.5847rem;
+    left: 21.0896rem;
+    position: absolute;
+    top: 2.7423rem;
+    width: 29.4626rem;
+
+    .team1-img-KwR {
+      background-color: #e2d5f1;
+      border-radius: 14.7313rem;
+      flex-shrink: 0;
+      width: 100%;
+
+      .mask-group-h2s {
+        height: 29.4626rem;
+        object-fit: contain;
+        position: relative;
+        vertical-align: top;
+        width: 29.4626rem;
+      }
+    }
+    .team1-text-Aaf {
+      flex-shrink: 0;
+      height: 10.1221rem;
+      margin: 0rem 0.481rem 0rem 0.481rem;
+      position: relative;
+      width: calc(100% - 0.9626rem);
+
+      .enric-s-neelamkavil-Gdh {
+        align-items: center;
+        color: #000000;
+        display: flex;
+        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-size: 3.0426rem;
+        font-weight: 700;
+        height: 7.6rem;
+        justify-content: center;
+        left: 0;
+        line-height: 2.4669402036;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+        width: 28.5rem;
+      }
+      .campus-lead-L7m {
+        align-items: center;
+        color: #ad58ff;
+        display: flex;
+        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-size: 2.4591rem;
+        font-weight: 500;
+        height: 6.1rem;
+        justify-content: center;
+        left: 6.1245rem;
+        line-height: 2.4669400859;
+        position: absolute;
+        top: 4.0221rem;
+        white-space: nowrap;
+        width: 16.2rem;
+      }
+    }
+  }
+  .team2-DhM {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 39.5847rem;
+    left: 63.6772rem;
+    position: absolute;
+    top: 0.9141rem;
+    width: 29.4722rem;
+
+    .team2-img-kSP {
+      flex-shrink: 0;
+      height: 29.4627rem;
+      margin-bottom: 0rem;
+      position: relative;
+      width: 100%;
+
+      .ellipse-19-JD1 {
+        background-color: #e2d5f1;
+        border-radius: 14.7313rem;
+        height: 29.4626rem;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 29.4626rem;
+      }
+      .mask-group-RoR {
+        height: 29.4626rem;
+        left: 0.0096rem;
+        object-fit: contain;
+        position: absolute;
+        top: 0rem;
+        vertical-align: top;
+        width: 29.4626rem;
+      }
+    }
+    .team2-text-kao {
+      flex-shrink: 0;
+      height: 10.1221rem;
+      margin: 0rem 0.486rem 0rem 0.486rem;
+      position: relative;
+      width: calc(100% - 0.9722rem);
+
+      .enric-s-neelamkavil-5sy {
+        align-items: center;
+        color: #000000;
+        display: flex;
+        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-size: 3.0426rem;
+        font-weight: 700;
+        height: 7.6rem;
+        justify-content: center;
+        left: 0;
+        line-height: 2.4669402036;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+        width: 28.5rem;
+      }
+      .campus-lead-yTZ {
+        align-items: center;
+        color: #ad58ff;
+        display: flex;
+        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-size: 2.4591rem;
+        font-weight: 500;
+        height: 6.1rem;
+        justify-content: center;
+        left: 6.1245rem;
+        line-height: 2.4669400859;
+        position: absolute;
+        top: 4.0221rem;
+        white-space: nowrap;
+        width: 16.2rem;
+      }
+    }
+  }
+  .team3-GhZ {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 39.5847rem;
+    left: 106.265rem;
+    position: absolute;
+    top: 0;
+    width: 29.4815rem;
+
+    .team3-img-ztT {
+      flex-shrink: 0;
+      height: 29.4627rem;
+      position: relative;
+      width: 100%;
+
+      .ellipse-20-Mj1 {
+        background-color: #e2d5f1;
+        border-radius: 14.7313rem;
+        height: 29.4626rem;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 29.4626rem;
+      }
+      .mask-group-gWP {
+        height: 29.4626rem;
+        left: 0.0189rem;
+        object-fit: contain;
+        position: absolute;
+        top: 0rem;
+        vertical-align: top;
+        width: 29.4626rem;
+      }
+    }
+    .team3-text-12s {
+      flex-shrink: 0;
+      height: 10.1221rem;
+      margin: 0rem 0.491rem 0rem 0.491rem;
+      position: relative;
+      width: calc(100% - 0.9815rem);
+
+      .enric-s-neelamkavil-Xmu {
+        align-items: center;
+        color: #000000;
+        display: flex;
+        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-size: 3.0426rem;
+        font-weight: 700;
+        height: 7.6rem;
+        justify-content: center;
+        left: 0;
+        line-height: 2.4669402036;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+        width: 28.5rem;
+      }
+      .campus-lead-qGo {
+        align-items: center;
+        color: #ad58ff;
+        display: flex;
+        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-size: 2.4591rem;
+        font-weight: 500;
+        height: 6.1rem;
+        justify-content: center;
+        left: 6.1245rem;
+        line-height: 2.4669400859;
+        position: absolute;
+        top: 4.0221rem;
+        white-space: nowrap;
+        width: 16.2rem;
+      }
+    }
+  }
+  .team4-XQX {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 39.7361rem;
+    left: 148.8528rem;
+    position: absolute;
+    top: 4.5705rem;
+    width: 29.491rem;
+
+    .team4-img-TJB {
+      flex-shrink: 0;
+      height: 29.5226rem;
+      margin-bottom: 0.0914rem;
+      position: relative;
+      width: 100%;
+
+      .ellipse-21-CWf {
+        background-color: #e2d5f1;
+        border-radius: 14.7313rem;
+        height: 29.4626rem;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 29.4626rem;
+      }
+      .mask-group-8v7 {
+        height: 29.4626rem;
+        left: 0.0284rem;
+        object-fit: contain;
+        position: absolute;
+        top: 0.06rem;
+        vertical-align: top;
+        width: 29.4626rem;
+      }
+    }
+    .team4-text-UDH {
+      flex-shrink: 0;
+      height: 10.1221rem;
+      margin: 0 0.4955rem;
+      position: relative;
+      width: calc(100% - 0.991rem);
+
+      .enric-s-neelamkavil-pH9 {
+        align-items: center;
+        color: #000000;
+        display: flex;
+        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-size: 3.0426rem;
+        font-weight: 700;
+        height: 7.6rem;
+        justify-content: center;
+        left: 0;
+        line-height: 2.4669402036;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+        width: 28.5rem;
+      }
+      .campus-lead-idR {
+        align-items: center;
+        color: #ad58ff;
+        display: flex;
+        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-size: 2.4591rem;
+        font-weight: 500;
+        height: 6.1rem;
+        justify-content: center;
+        left: 6.1245rem;
+        line-height: 2.4669400859;
+        position: absolute;
+        top: 4.0221rem;
+        white-space: nowrap;
+        width: 16.2rem;
+      }
+    }
+  }
 }
