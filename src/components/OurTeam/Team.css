@@ -1,3 +1,11 @@
+.team-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
 .team-img-wrapper {
   display: flex;
   flex-direction: column;
@@ -18,26 +26,20 @@
 
 /* dkjbcvjkdabcjk */
 
-.auto-group-dymm-ZvK {
-  flex-shrink: 0;
-  height: 46.1rem;
-  width: 100%;
-}
-
-
-.auto-group-dymm-ZvK {
+.team-content-wrapper {
   flex-shrink: 0;
   height: 46.1rem;
   position: relative;
   width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
 
   .group-JN7 {
     height: 3.5rem;
-    left: 101.8804rem;
+    left: 100rem;
     object-fit: contain;
     position: absolute;
     top: 37.1rem;
-    vertical-align: top;
     width: 3.5rem;
   }
   .group-11d {
@@ -65,72 +67,63 @@
     position: absolute;
     top: 9.8rem;
     vertical-align: top;
-    width: 201.9rem;
+    width: auto;
   }
+  .team-image-individual {
+    height: 20rem;
+    object-fit: contain;
+    position: relative;
+    vertical-align: top;
+    width: 20rem;
+  }
+  .team-name-designation {
+      flex-shrink: 0;
+      height: fit-content;
+      position: relative;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .enric-s-neelamkavil-Gdh {
+        color: #000000;
+        display: flex;
+        font-size: 2rem;
+        font-weight: 700;
+        height: fit-content;
+        justify-content: center;
+        position: absolute;
+        width: fit-content;
+      }
+      .campus-lead-L7m {
+        color: #ad58ff;
+        display: flex;
+        font-size: 2rem;
+        font-weight: 500;
+        height: fit-content;
+        justify-content: center;
+        position: absolute;
+        top: 3rem;
+        width: fit-content;
+      }
+    }
   .team1-oCP {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 39.5847rem;
+    height: fit-content;
     left: 21.0896rem;
     position: absolute;
     top: 2.7423rem;
-    width: 29.4626rem;
+    width: fit-content;
 
     .team1-img-KwR {
       background-color: #e2d5f1;
       border-radius: 14.7313rem;
       flex-shrink: 0;
       width: 100%;
-
-      .mask-group-h2s {
-        height: 29.4626rem;
-        object-fit: contain;
-        position: relative;
-        vertical-align: top;
-        width: 29.4626rem;
-      }
     }
-    .team1-text-Aaf {
-      flex-shrink: 0;
-      height: 10.1221rem;
-      margin: 0rem 0.481rem 0rem 0.481rem;
-      position: relative;
-      width: calc(100% - 0.9626rem);
-
-      .enric-s-neelamkavil-Gdh {
-        align-items: center;
-        color: #000000;
-        display: flex;
-        font-family: Plus Jakarta Sans, 'Source Sans Pro';
-        font-size: 3.0426rem;
-        font-weight: 700;
-        height: 7.6rem;
-        justify-content: center;
-        left: 0;
-        line-height: 2.4669402036;
-        position: absolute;
-        top: 0;
-        white-space: nowrap;
-        width: 28.5rem;
-      }
-      .campus-lead-L7m {
-        align-items: center;
-        color: #ad58ff;
-        display: flex;
-        font-family: Plus Jakarta Sans, 'Source Sans Pro';
-        font-size: 2.4591rem;
-        font-weight: 500;
-        height: 6.1rem;
-        justify-content: center;
-        left: 6.1245rem;
-        line-height: 2.4669400859;
-        position: absolute;
-        top: 4.0221rem;
-        white-space: nowrap;
-        width: 16.2rem;
-      }
-    }
+    
   }
   .team2-DhM {
     align-items: center;
@@ -179,7 +172,7 @@
         align-items: center;
         color: #000000;
         display: flex;
-        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-family: Plus Jakarta Sans, "Source Sans Pro";
         font-size: 3.0426rem;
         font-weight: 700;
         height: 7.6rem;
@@ -195,7 +188,7 @@
         align-items: center;
         color: #ad58ff;
         display: flex;
-        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-family: Plus Jakarta Sans, "Source Sans Pro";
         font-size: 2.4591rem;
         font-weight: 500;
         height: 6.1rem;
@@ -255,7 +248,7 @@
         align-items: center;
         color: #000000;
         display: flex;
-        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-family: Plus Jakarta Sans, "Source Sans Pro";
         font-size: 3.0426rem;
         font-weight: 700;
         height: 7.6rem;
@@ -271,7 +264,7 @@
         align-items: center;
         color: #ad58ff;
         display: flex;
-        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-family: Plus Jakarta Sans, "Source Sans Pro";
         font-size: 2.4591rem;
         font-weight: 500;
         height: 6.1rem;
@@ -332,7 +325,7 @@
         align-items: center;
         color: #000000;
         display: flex;
-        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-family: Plus Jakarta Sans, "Source Sans Pro";
         font-size: 3.0426rem;
         font-weight: 700;
         height: 7.6rem;
@@ -348,7 +341,7 @@
         align-items: center;
         color: #ad58ff;
         display: flex;
-        font-family: Plus Jakarta Sans, 'Source Sans Pro';
+        font-family: Plus Jakarta Sans, "Source Sans Pro";
         font-size: 2.4591rem;
         font-weight: 500;
         height: 6.1rem;

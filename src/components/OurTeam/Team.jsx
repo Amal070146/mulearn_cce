@@ -6,7 +6,7 @@ import line from '../../assets/team/line.png'
 
 const Team = () => {
   return (
-    <div>
+    <div className="team-wrapper">
       <h1>Our Team</h1>
       {/* <div className="team-img-wrapper">
         <svg
@@ -36,125 +36,45 @@ const Team = () => {
       </div> */}
 
       {/*  */}
-      <div className="auto-group-dymm-ZvK" id="Ahyxh4Z8DVbK5R2DJrDyMm">
-        <img className="group-JN7" src={star} id="238:112" />
-        <img className="group-11d" src={star} id="238:121" />
-        <img className="group-8rw" src={star} id="238:148" />
-        <img className="team-line1-fM5" src={line} id="238:166" />
-        <div className="team1-oCP" id="238:168">
-          <div className="team1-img-KwR" id="238:169">
-            <img className="mask-group-h2s" src={image} id="238:171" />
+      <div className="team-content-wrapper">
+        <img className="group-JN7" src={star} />
+        <img className="group-11d" src={star} />
+        <img className="group-8rw" src={star} />
+        <img className="team-line1-fM5" src={line} />
+        <div className="team1-oCP">
+          <div className="team1-img-KwR">
+            <img className="team-image-individual" src={image} />
           </div>
-          <div className="team1-text-Aaf" id="238:177">
-            <div className="enric-s-neelamkavil-Gdh" id="238:178">
-              Enric S Neelamkavil
-            </div>
-            <div className="campus-lead-L7m" id="238:179">
-              Campus Lead
-            </div>
+          <div className="team-name-designation">
+            <div className="enric-s-neelamkavil-Gdh">Enric S Neelamkavil</div>
+            <div className="campus-lead-L7m">Campus Lead</div>
           </div>
         </div>
-        <div className="team2-DhM" id="238:191">
-          <div className="team2-img-kSP" id="238:192">
-            <div className="ellipse-19-JD1" id="238:193"></div>
-            <img className="mask-group-RoR" src={image} id="238:194" />
+        <div className="team2-DhM">
+          <div className="team2-img-kSP">
+            <img className="team-image-individual" src={image} />
           </div>
-          <div className="team2-text-kao" id="238:200">
-            <div className="enric-s-neelamkavil-5sy" id="238:201">
-              Enric S Neelamkavil
-            </div>
-            <div className="campus-lead-yTZ" id="238:202">
-              Campus Lead
-            </div>
+          <div className="team-name-designation">
+            <div className="enric-s-neelamkavil-Gdh">Enric S Neelamkavil</div>
+            <div className="campus-lead-L7m">Campus Lead</div>
           </div>
         </div>
         <div className="team3-GhZ" id="238:214">
           <div className="team3-img-ztT" id="238:215">
-            <div className="ellipse-20-Mj1" id="238:216"></div>
-            <img className="mask-group-gWP" src={image} id="238:217" />
+            <img className="team-image-individual" src={image} />
           </div>
-          <div className="team3-text-12s" id="238:223">
-            <div className="enric-s-neelamkavil-Xmu" id="238:224">
-              Enric S Neelamkavil
-            </div>
-            <div className="campus-lead-qGo" id="238:225">
-              Campus Lead
-            </div>
+          <div className="team-name-designation">
+            <div className="enric-s-neelamkavil-Gdh">Enric S Neelamkavil</div>
+            <div className="campus-lead-L7m">Campus Lead</div>
           </div>
         </div>
         <div className="team4-XQX" id="238:237">
           <div className="team4-img-TJB" id="238:238">
-            <div className="ellipse-21-CWf" id="238:239"></div>
-            <img className="mask-group-8v7" src={image} id="238:240" />
+            <img className="team-image-individual" src={image} />
           </div>
-          <div className="team4-text-UDH" id="238:246">
-            <div className="enric-s-neelamkavil-pH9" id="238:247">
-              Enric S Neelamkavil
-            </div>
-            <div className="campus-lead-idR" id="238:248">
-              Campus Lead
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="auto-group-dymm-ZvK" id="Ahyxh4Z8DVbK5R2DJrDyMm">
-        <img className="group-JN7" src={star} id="238:112" />
-        <img className="group-11d" src={star} id="238:121" />
-        <img className="group-8rw" src={star} id="238:148" />
-        <img className="team-line1-fM5" src={line} id="238:166" />
-        <div className="team1-oCP" id="238:168">
-          <div className="team1-img-KwR" id="238:169">
-            <img className="mask-group-h2s" src={image} id="238:171" />
-          </div>
-          <div className="team1-text-Aaf" id="238:177">
-            <div className="enric-s-neelamkavil-Gdh" id="238:178">
-              Enric S Neelamkavil
-            </div>
-            <div className="campus-lead-L7m" id="238:179">
-              Campus Lead
-            </div>
-          </div>
-        </div>
-        <div className="team2-DhM" id="238:191">
-          <div className="team2-img-kSP" id="238:192">
-            <div className="ellipse-19-JD1" id="238:193"></div>
-            <img className="mask-group-RoR" src={image} id="238:194" />
-          </div>
-          <div className="team2-text-kao" id="238:200">
-            <div className="enric-s-neelamkavil-5sy" id="238:201">
-              Enric S Neelamkavil
-            </div>
-            <div className="campus-lead-yTZ" id="238:202">
-              Campus Lead
-            </div>
-          </div>
-        </div>
-        <div className="team3-GhZ" id="238:214">
-          <div className="team3-img-ztT" id="238:215">
-            <div className="ellipse-20-Mj1" id="238:216"></div>
-            <img className="mask-group-gWP" src={image} id="238:217" />
-          </div>
-          <div className="team3-text-12s" id="238:223">
-            <div className="enric-s-neelamkavil-Xmu" id="238:224">
-              Enric S Neelamkavil
-            </div>
-            <div className="campus-lead-qGo" id="238:225">
-              Campus Lead
-            </div>
-          </div>
-        </div>
-        <div className="team4-XQX" id="238:237">
-          <div className="team4-img-TJB" id="238:238">
-            <div className="ellipse-21-CWf" id="238:239"></div>
-            <img className="mask-group-8v7" src={image} id="238:240" />
-          </div>
-          <div className="team4-text-UDH" id="238:246">
-            <div className="enric-s-neelamkavil-pH9" id="238:247">
-              Enric S Neelamkavil
-            </div>
-            <div className="campus-lead-idR" id="238:248">
-              Campus Lead
-            </div>
+          <div className="team-name-designation">
+            <div className="enric-s-neelamkavil-Gdh">Enric S Neelamkavil</div>
+            <div className="campus-lead-L7m">Campus Lead</div>
           </div>
         </div>
       </div>
