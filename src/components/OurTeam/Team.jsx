@@ -37,44 +37,44 @@ const Team = () => {
 
       {/*  */}
       <div className="team-content-wrapper">
-        <img className="group-JN7" src={star} />
-        <img className="group-11d" src={star} />
-        <img className="group-8rw" src={star} />
+        <img className="star1" src={star} />
+        <img className="star2" src={star} />
+        <img className="star3" src={star} />
         <img className="team-line1-fM5" src={line} />
-        <div className="team1-oCP">
+        <div className="team1">
           <div className="team1-img-KwR">
             <img className="team-image-individual" src={image} />
           </div>
           <div className="team-name-designation">
-            <div className="enric-s-neelamkavil-Gdh">Enric S Neelamkavil</div>
-            <div className="campus-lead-L7m">Campus Lead</div>
+            <div className="team-member-name">Enric S Neelamkavil</div>
+            <div className="team-member-designation">Campus Lead</div>
           </div>
         </div>
-        <div className="team2-DhM">
-          <div className="team2-img-kSP">
+        <div className="team2">
+          <div className="team1-img-KwR">
             <img className="team-image-individual" src={image} />
           </div>
           <div className="team-name-designation">
-            <div className="enric-s-neelamkavil-Gdh">Enric S Neelamkavil</div>
-            <div className="campus-lead-L7m">Campus Lead</div>
+            <div className="team-member-name">Enric S Neelamkavil</div>
+            <div className="team-member-designation">Campus Lead</div>
           </div>
         </div>
-        <div className="team3-GhZ" id="238:214">
-          <div className="team3-img-ztT" id="238:215">
+        <div className="team3">
+          <div className="team1-img-KwR">
             <img className="team-image-individual" src={image} />
           </div>
           <div className="team-name-designation">
-            <div className="enric-s-neelamkavil-Gdh">Enric S Neelamkavil</div>
-            <div className="campus-lead-L7m">Campus Lead</div>
+            <div className="team-member-name">Enric S Neelamkavil</div>
+            <div className="team-member-designation">Campus Lead</div>
           </div>
         </div>
-        <div className="team4-XQX" id="238:237">
-          <div className="team4-img-TJB" id="238:238">
+        <div className="team4">
+          <div className="team1-img-KwR">
             <img className="team-image-individual" src={image} />
           </div>
           <div className="team-name-designation">
-            <div className="enric-s-neelamkavil-Gdh">Enric S Neelamkavil</div>
-            <div className="campus-lead-L7m">Campus Lead</div>
+            <div className="team-member-name">Enric S Neelamkavil</div>
+            <div className="team-member-designation">Campus Lead</div>
           </div>
         </div>
       </div>
