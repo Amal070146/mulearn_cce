@@ -3,6 +3,7 @@ import './Team.css'
 import star from '../../assets/about/star.png'
 import image from '../../assets/team/img1.png'
 import line from '../../assets/team/line.png'
+import line2 from "../../assets/team/line2.png";
 
 const Team = () => {
   return (
@@ -41,6 +42,51 @@ const Team = () => {
         <img className="star2" src={star} />
         <img className="star3" src={star} />
         <img className="team-line1-fM5" src={line} />
+        <div className="team1">
+          <div className="team1-img-KwR">
+            <img className="team-image-individual" src={image} />
+          </div>
+          <div className="team-name-designation">
+            <div className="team-member-name">Enric S Neelamkavil</div>
+            <div className="team-member-designation">Campus Lead</div>
+          </div>
+        </div>
+        <div className="team2">
+          <div className="team1-img-KwR">
+            <img className="team-image-individual" src={image} />
+          </div>
+          <div className="team-name-designation">
+            <div className="team-member-name">Enric S Neelamkavil</div>
+            <div className="team-member-designation">Campus Lead</div>
+          </div>
+        </div>
+        <div className="team3">
+          <div className="team1-img-KwR">
+            <img className="team-image-individual" src={image} />
+          </div>
+          <div className="team-name-designation">
+            <div className="team-member-name">Enric S Neelamkavil</div>
+            <div className="team-member-designation">Campus Lead</div>
+          </div>
+        </div>
+        <div className="team4">
+          <div className="team1-img-KwR">
+            <img className="team-image-individual" src={image} />
+          </div>
+          <div className="team-name-designation">
+            <div className="team-member-name">Enric S Neelamkavil</div>
+            <div className="team-member-designation">Campus Lead</div>
+          </div>
+        </div>
+      </div>
+
+      {/* line 2 */}
+
+      <div className="team-content-wrapper">
+        <img className="star1" src={star} />
+        <img className="star2" src={star} />
+        <img className="star3" src={star} />
+        <img className="team-line1-fM5" src={line2} />
         <div className="team1">
           <div className="team1-img-KwR">
             <img className="team-image-individual" src={image} />
