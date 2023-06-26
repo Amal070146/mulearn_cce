@@ -72,27 +72,27 @@
 
   .star1 {
     height: 3.5rem;
-    left: 70rem;
+    left: 75%;
     object-fit: contain;
     position: absolute;
-    top: 25rem;
+    top: 85%;
     width: 3.5rem;
   }
   .star2 {
     height: 3.5rem;
-    left: 15rem;
+    left: 20%;
     object-fit: contain;
     position: absolute;
-    top: 1rem;
+    top: 5%;
     vertical-align: top;
     width: 3.5rem;
   }
   .star3 {
     height: 3.5rem;
-    left: 50rem;
+    left: 50%;
     object-fit: contain;
     position: absolute;
-    top: 5rem;
+    top: 10%;
     vertical-align: top;
     width: 3.5rem;
   }
@@ -117,9 +117,9 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-    left: 4rem;
+    left: 5%;
     position: absolute;
-    top: 9rem;
+    top: 30%;
     width: fit-content;
   }
   .team2 {
@@ -127,9 +127,9 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-    left: 27rem;
+    left: 30%;
     position: absolute;
-    top: 11rem;
+    top: 28%;
     width: fit-content;
   }
   .team3 {
@@ -137,9 +137,9 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-    left: 52rem;
+    left: 55%;
     position: absolute;
-    top: 6rem;
+    top: 30%;
     width: fit-content;
   }
   .team4 {
@@ -147,9 +147,9 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-    left: 77rem;
+    left: 80%;
     position: absolute;
-    top: 8rem;
+    top: 33%;
     width: fit-content;
   }
 }
@@ -158,25 +158,25 @@
 
 .auto-group-krhq-14P {
   flex-shrink: 0;
-  height: 44.9704rem;
+  height: 30rem;
   position: relative;
   width: 100%;
 
   .group-Kas {
     height: 3.5rem;
-    left: 146.9rem;
+    left: 78%;
     object-fit: contain;
     position: absolute;
-    top: 2.8541rem;
+    top: 10%;
     vertical-align: top;
     width: 3.5rem;
   }
   .group-et3 {
     height: 3.5rem;
-    left: 60.2rem;
+    left: 18%;
     object-fit: contain;
     position: absolute;
-    top: 30.7541rem;
+    top: 5%;
     vertical-align: top;
     width: 3.5rem;
   }
@@ -194,9 +194,9 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-    left: 21rem;
+    left: 5%;
     position: absolute;
-    top: 0;
+    top: 30%;
     width: fit-content;
   }
   .team6 {
@@ -204,27 +204,27 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-    left: 63.5341rem;
+    left: 30%;
     position: absolute;
-    top: 2.813rem;
+    top: 38%;
     width: fit-content;
   }
   .team7 {
     display: flex;
     flex-direction: column;
     height: fit-content;
-    left: 106.0893rem;
+    left: 55%;
     position: absolute;
-    top: 4.7121rem;
+    top: 40%;
     width: fit-content;
   }
   .team8 {
     display: flex;
     flex-direction: column;
     height: fit-content;
-    left: 148.7713rem;
+    left: 80%;
     position: absolute;
-    top: 1.128rem;
+    top: 30%;
     width: fit-content;
   }
 }

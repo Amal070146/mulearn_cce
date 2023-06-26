@@ -95,7 +95,7 @@ const Team = () => {
             <div className="team-member-designation">Campus Lead</div>
           </div>
         </div>
-        <div class="team6" >
+        <div class="team6">
           <div className="team1-img-KwR">
             <img className="team-image-individual" src={image} />
           </div>
