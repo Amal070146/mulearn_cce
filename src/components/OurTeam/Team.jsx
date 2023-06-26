@@ -1,8 +1,8 @@
-import React from 'react'
-import './Team.css'
-import star from '../../assets/about/star.png'
-import image from '../../assets/team/img1.png'
-import line from '../../assets/team/line.png'
+import React from "react";
+import "./Team.css";
+import star from "../../assets/about/star.png";
+import image from "../../assets/team/img1.png";
+import line from "../../assets/team/line.png";
 import line2 from "../../assets/team/line2.png";
 
 const Team = () => {
@@ -82,12 +82,11 @@ const Team = () => {
 
       {/* line 2 */}
 
-      <div className="team-content-wrapper">
-        <img className="star1" src={star} />
-        <img className="star2" src={star} />
-        <img className="star3" src={star} />
-        <img className="team-line1-fM5" src={line2} />
-        <div className="team1">
+      <div class="auto-group-krhq-14P">
+        <img class="group-Kas" src={star} />
+        <img class="group-et3" src={star} />
+        <img class="team-line2-njM" src={line2} />
+        <div class="team5">
           <div className="team1-img-KwR">
             <img className="team-image-individual" src={image} />
           </div>
@@ -96,7 +95,7 @@ const Team = () => {
             <div className="team-member-designation">Campus Lead</div>
           </div>
         </div>
-        <div className="team2">
+        <div class="team6" >
           <div className="team1-img-KwR">
             <img className="team-image-individual" src={image} />
           </div>
@@ -105,7 +104,7 @@ const Team = () => {
             <div className="team-member-designation">Campus Lead</div>
           </div>
         </div>
-        <div className="team3">
+        <div class="team7">
           <div className="team1-img-KwR">
             <img className="team-image-individual" src={image} />
           </div>
@@ -114,7 +113,7 @@ const Team = () => {
             <div className="team-member-designation">Campus Lead</div>
           </div>
         </div>
-        <div className="team4">
+        <div class="team8">
           <div className="team1-img-KwR">
             <img className="team-image-individual" src={image} />
           </div>
@@ -126,6 +125,6 @@ const Team = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Team
+export default Team;
