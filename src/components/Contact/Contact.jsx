@@ -28,7 +28,7 @@ const Contact = () => {
             <div>
               <p>80K+</p>
               <p>
-                KKARMA<br></br>MINED
+                KARMA<br></br>MINED
               </p>
             </div>
           </div>

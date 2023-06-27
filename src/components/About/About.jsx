@@ -1,6 +1,8 @@
 import React from "react";
-import './About.css'
-
+import "./About.css";
+import person from "../../assets/about/personlogo.png";
+import discord from "../../assets/about/discordlogo.png";
+import clock from "../../assets/about/clocklogo.png";
 const About = () => {
   return (
     <div id="#about" className="about-wrapper">
@@ -17,7 +19,47 @@ const About = () => {
             fill="#B5B5B5"
           />
         </svg>
-        
+        <div className="about-content-wrapper">
+          <div className="about-individual-wrapper set1">
+            <div className="track-about-div">
+              <img src={person} alt="" />
+            </div>
+            <div>
+              <h2>Improve your Profile</h2>
+              <p>
+                Participate in events, complete tasks, earn Karma points for
+                your participation. Include these in your resume and promote
+                yourself.
+              </p>
+            </div>
+          </div>
+          <div className="about-individual-wrapper set2">
+            <div className="track-about-div">
+              <img src={person} alt="" />
+            </div>
+            <div>
+              <h2>Improve your Profile</h2>
+              <p>
+                Participate in events, complete tasks, earn Karma points for
+                your participation. Include these in your resume and promote
+                yourself.
+              </p>
+            </div>
+          </div>
+          <div className="about-individual-wrapper set3">
+            <div className="track-about-div">
+              <img src={person} alt="" />
+            </div>
+            <div>
+              <h2>Improve your Profile</h2>
+              <p>
+                Participate in events, complete tasks, earn Karma points for
+                your participation. Include these in your resume and promote
+                yourself.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

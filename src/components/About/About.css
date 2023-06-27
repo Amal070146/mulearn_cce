@@ -1,12 +1,18 @@
 .about-wrapper{
     margin-top: 50px;
-    gap: 30px;
+    gap: 100px;
     display: flex;
     flex-direction: column;
-}
-/* .pathway-arch{
+    background: url('../../assets/about/bg.png') center center/contain no-repeat
+    local;
+  width: 100%;
+  height: 80vh;
 
-} */
+}
+.pathway-arch{
+position: relative;
+width: 100%;
+}
 .subtract,
 .subtract * {
   box-sizing: border-box;
@@ -17,4 +23,42 @@
   max-width: 1100px;
   max-height: 317px;
   min-width: 380px;
+  width: 100%;
+}
+.about-content-wrapper{
+  max-width: 1100px;
+  max-height: 317px;
+  min-width: 380px;
+  width: 100%;
+}
+.about-individual-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 25%;
+  position: absolute;
+}
+.track-about-div{
+  padding: 1.5rem;
+  background-color: #AE59FF;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+}
+
+.set1{
+  top: 15rem;
+  left: 72%;
+}
+
+.set2{
+  top: -3rem;
+  left: 38%;
+}
+
+.set3{
+  top: 15rem;
+  left: 2%;
 }
