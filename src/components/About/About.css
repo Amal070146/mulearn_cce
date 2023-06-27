@@ -54,6 +54,9 @@
   height: fit-content;
   border-radius: 50%;
 }
+.track-about-div>img{
+  width: 50px;
+}
 
 .set1 {
   top: 37vh;
@@ -81,7 +84,90 @@
   overflow: hidden;
 }
 
-.marquee-img{
+.marquee-img {
   width: 45px;
 }
 
+@media screen and (max-width: 1000px) {
+  .about-wrapper {
+    margin-top: 150px;
+  }
+
+  .hemisphere {
+    width: 50%;
+    height: 30vh;
+  }
+  .set1 {
+    top: 26vh;
+    left: 63%;
+  }
+
+  .set3 {
+    top: 26vh;
+    left: 12%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .about-wrapper {
+    margin-top: 100px;
+  }
+  .pathway-arch {
+    align-items: start;
+    justify-content: left;
+  }
+  .hemisphere {
+    width: 4px;
+    border-right: none;
+    height: 60vh;
+    margin-left: 14%;
+  }
+  .about-individual-wrapper {
+    flex-direction: row;
+    width: 75%;
+  }
+  .set1 {
+    top: 58vh;
+    left: 8%;
+  }
+
+  .set2 {
+    top: 28vh;
+    left: 8%;
+  }
+
+  .set3 {
+    top: -2vh;
+    left: 8%;
+  }
+  .track-about-div {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about-wrapper {
+    margin-top: 0px;
+  }
+   .hemisphere {
+  
+    height: 55vh;
+    margin-left: 16%;
+  }
+    .about-individual-wrapper {
+    flex-direction: row;
+    width: 80%;
+  }
+  .set1 {
+    top: 48vh;
+    left: 8%;
+  }
+
+  .set2 {
+    top: 22vh;
+    left: 8%;
+  }
+
+  .set3 {
+    top: -3vh;
+    left: 8%;
+  }
+}
