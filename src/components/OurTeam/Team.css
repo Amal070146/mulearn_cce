@@ -3,28 +3,41 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
+  background: url("../../assets//team/bg.png") center center/contain no-repeat
+    local;
 }
 
-.team-img-wrapper {
+.team-body-wrapper {
+  position: relative;
+  height: 90vh;
+}
+.team-bg-line-wrapper {
+  width: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 280px;
 }
-
-.team-bg-line,
-.team-bg-line * {
-  box-sizing: border-box;
+.team-bg-line-wrapper > :nth-child(3),
+.team-bg-line-wrapper > :nth-child(4) {
+  display: none;
 }
-.team-bg-line {
-  position: relative;
-  overflow: visible;
-  max-width: 2100px;
-  max-height: 317px;
-  min-width: 380px;
+.team-bg-line-wrapper > img {
+  width: 100%;
 }
-
-/* dkjbcvjkdabcjk */
+.team-members-details-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.team {
+  height: 20rem;
+}
 .team-image-individual {
   height: 15rem;
   object-fit: contain;
@@ -63,168 +76,64 @@
     width: fit-content;
   }
 }
-.team-content-wrapper {
+
+.team1-img {
+  border-radius: 50%;
   flex-shrink: 0;
-  height: 30rem;
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-
-  .star1 {
-    height: 3.5rem;
-    left: 75%;
-    object-fit: contain;
-    position: absolute;
-    top: 85%;
-    width: 3.5rem;
-  }
-  .star2 {
-    height: 3.5rem;
-    left: 20%;
-    object-fit: contain;
-    position: absolute;
-    top: 5%;
-    vertical-align: top;
-    width: 3.5rem;
-  }
-  .star3 {
-    height: 3.5rem;
-    left: 50%;
-    object-fit: contain;
-    position: absolute;
-    top: 10%;
-    vertical-align: top;
-    width: 3.5rem;
-  }
-  .team-line1-fM5 {
-    height: 11.9107rem;
-    left: 0;
-    object-fit: contain;
-    position: absolute;
-    top: 9.8rem;
-    vertical-align: top;
-    width: 100%;
-  }
-
-  .team1-img-KwR {
-    background-color: #e2d5f1;
-    border-radius: 14.7313rem;
-    flex-shrink: 0;
-    width: 100%;
-  }
-  .team1 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    left: 5%;
-    position: absolute;
-    top: 30%;
-    width: fit-content;
-  }
-  .team2 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    left: 30%;
-    position: absolute;
-    top: 28%;
-    width: fit-content;
-  }
-  .team3 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    left: 55%;
-    position: absolute;
-    top: 30%;
-    width: fit-content;
-  }
-  .team4 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    left: 80%;
-    position: absolute;
-    top: 33%;
-    width: fit-content;
-  }
+  width: 15rem;
 }
 
-/* second line */
+.team1 {
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
 
-.auto-group-krhq-14P {
-  flex-shrink: 0;
-  height: 30rem;
-  position: relative;
-  width: 100%;
+.team2 {
+  position: absolute;
+  top: 0;
+  left: 28%;
+}
 
-  .group-Kas {
-    height: 3.5rem;
-    left: 78%;
-    object-fit: contain;
-    position: absolute;
-    top: 10%;
-    vertical-align: top;
-    width: 3.5rem;
-  }
-  .group-et3 {
-    height: 3.5rem;
-    left: 18%;
-    object-fit: contain;
-    position: absolute;
-    top: 5%;
-    vertical-align: top;
-    width: 3.5rem;
-  }
-  .team-line2-njM {
-    height: 17rem;
-    left: 0;
-    object-fit: contain;
-    position: absolute;
-    top: 11rem;
-    vertical-align: top;
-    width: 100%;
-  }
-  .team5 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    left: 5%;
-    position: absolute;
-    top: 30%;
-    width: fit-content;
-  }
-  .team6 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    left: 30%;
-    position: absolute;
-    top: 38%;
-    width: fit-content;
-  }
-  .team7 {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    left: 55%;
-    position: absolute;
-    top: 40%;
-    width: fit-content;
-  }
-  .team8 {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    left: 80%;
-    position: absolute;
-    top: 30%;
-    width: fit-content;
-  }
+.team3 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.team4 {
+  position: absolute;
+  top: 0;
+  left: 74%;
+}
+
+.team5 {
+  position: absolute;
+margin-top: 350px;
+
+  top: 100%;
+  left: 7%;
+}
+
+.team6 {
+  position: absolute;
+margin-top: 350px;
+
+  top: 100%;
+  left: 30%;
+}
+
+.team7 {
+  position: absolute;
+margin-top: 350px;
+  top: 100%;
+  left: 54%;
+}
+
+.team8 {
+  position: absolute;
+margin-top: 350px;
+
+  top: 100%;
+  left: 77%;
 }
