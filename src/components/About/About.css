@@ -74,5 +74,14 @@
   width: 100%;
   background-color: #d4a7ff;
   height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.marquee-img{
+  width: 45px;
 }
 
