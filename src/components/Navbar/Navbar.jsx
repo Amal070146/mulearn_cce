@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div
       className="navbar-wrapper"
-      style={{ background: navbg ? "rgba(255,255,255,1)" : "transparent" }}
+      style={{ background: navbg ? "rgba(255,255,255,0.7)" : "transparent" }}
     >
       <div className="navbar-left">
         <img src={logo} alt="" />
@@ -37,7 +37,7 @@ const Navbar = () => {
             <p
               style={{
                 borderBottom: window.location.href.includes(`#${content}`)
-                  ? "2px solid red"
+                  ? "2px solid #A1A1FF"
                   : "",
               }}
             >
@@ -53,21 +53,19 @@ const Navbar = () => {
         </button>
         {openmenu && (
           <div>
-            <a href="">
-              <p>Home</p>
-            </a>
-            <a href="">
-              <p>About</p>
-            </a>
-            <a href="">
-              <p>Events</p>
-            </a>
-            <a href="">
-              <p>Team</p>
-            </a>
-            <a href="">
-              <p>Contact</p>
-            </a>
+            {navContent.map((content, i) => (
+              <a href={`#${content}`} key={i.toString() + content}>
+                <p
+                  style={{
+                    borderBottom: window.location.href.includes(`#${content}`)
+                      ? "2px solid #A1A1FF"
+                      : "",
+                  }}
+                >
+                  {content}
+                </p>
+              </a>
+            ))}
             <button>Join Mulearn</button>
           </div>
         )}

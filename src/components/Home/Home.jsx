@@ -39,12 +39,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <button onClick={{}}>
-          <span class="m_scroll_arrows unu"></span>
-          <span class="m_scroll_arrows doi"></span>
-          <span class="m_scroll_arrows trei"></span>
-          <span class="m_scroll_arrows quad"></span>
-        </button>
+        <a href="#about">
+          <button>
+            <span class="m_scroll_arrows unu"></span>
+            <span class="m_scroll_arrows doi"></span>
+            <span class="m_scroll_arrows trei"></span>
+            <span class="m_scroll_arrows quad"></span>
+          </button>
+        </a>
       </div>
     </div>
   );
