@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import astrologer from "../../assets/contact/astrologer.png";
-
+import planet from "../../assets/contact/blueearth.png";
 const Contact = () => {
   return (
     <div className="contact-wrapper">
@@ -41,6 +41,7 @@ const Contact = () => {
         <div className="outer-div-contact-footer-bottom"></div>
         <div className="inner-div-contact-footer">
           <div className="planet-image-wrapper-div">
+            <img src={planet} alt="" />
             <button>Join Mulearn</button>
           </div>
         </div>

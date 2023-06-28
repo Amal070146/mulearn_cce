@@ -24,7 +24,7 @@ const Navbar = () => {
           <p>Events</p>
         </a>
         <a href="">
-          <p>Our Team</p>
+          <p>Team</p>
         </a>
         <a href="">
           <p>Contact</p>
@@ -47,7 +47,7 @@ const Navbar = () => {
               <p>Events</p>
             </a>
             <a href="">
-              <p>Our Team</p>
+              <p>Team</p>
             </a>
             <a href="">
               <p>Contact</p>
