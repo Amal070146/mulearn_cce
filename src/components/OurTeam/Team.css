@@ -109,7 +109,7 @@
 
 .team5 {
   position: absolute;
-margin-top: 350px;
+  margin-top: 350px;
 
   top: 100%;
   left: 7%;
@@ -117,7 +117,7 @@ margin-top: 350px;
 
 .team6 {
   position: absolute;
-margin-top: 350px;
+  margin-top: 350px;
 
   top: 100%;
   left: 30%;
@@ -125,15 +125,90 @@ margin-top: 350px;
 
 .team7 {
   position: absolute;
-margin-top: 350px;
+  margin-top: 350px;
   top: 100%;
   left: 54%;
 }
 
 .team8 {
   position: absolute;
-margin-top: 350px;
+  margin-top: 350px;
 
   top: 100%;
   left: 77%;
+}
+
+@media screen and (max-width: 1200px) {
+  .team-wrapper {
+    gap: 100px;
+  }
+  .team-body-wrapper {
+    height: 120vh;
+  }
+  .team-bg-line-wrapper > :nth-child(3) {
+    display: block;
+  }
+  .team-image-individual {
+    height: 12rem;
+    width: 12rem;
+  }
+  .team1 {
+    position: absolute;
+    margin-top: -50px;
+    top: 0;
+    left: 3%;
+  }
+
+  .team2 {
+    position: absolute;
+    margin-top: -70px;
+    top: 0%;
+    left: 37%;
+  }
+
+  .team3 {
+    position: absolute;
+    margin-top: -30px;
+    top: 0;
+    left: 69%;
+  }
+
+  .team4 {
+    position: absolute;
+    margin-top: 310px;
+
+    top: 100%;
+    left: 4%;
+  }
+
+  .team5 {
+    position: absolute;
+    margin-top: 350px;
+
+    top: 100%;
+    left: 37%;
+  }
+
+  .team6 {
+    position: absolute;
+    margin-top: 300px;
+
+    top: 100%;
+    left: 68%;
+  }
+
+  .team7 {
+    position: absolute;
+    margin-top: 660px;
+    top: 100%;
+    left: 24%;
+  }
+
+  .team8 {
+    position: absolute;
+    margin-top: 680px;
+
+    top: 100%;
+    left: 60%;
+  }
 }
