@@ -9,6 +9,7 @@ const Navbar = () => {
     setopenmenu(!openmenu);
   }
   return (
+    
     <div className="navbar-wrapper">
       <div className="navbar-left">
         <img src={logo} alt="" />

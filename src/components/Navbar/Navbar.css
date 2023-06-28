@@ -39,19 +39,43 @@
   display: none;
   padding: 0px 35px;
   background-color: transparent;
+  position: fixed;
+  right: 0;
+  top: 15px;
+  
 }
+.navbar-mobile >div{
+  background-color: #a0177e;
+  padding: 8px;
 
+font-size: 16px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.navbar-mobile >div>a>p{
+  color: white;
+}
+.navbar-mobile >div>button{
+  color: white;
+font-size: 16px;
+
+}
+/* 
 .navbar-mobile > button,
 .navbar-mobile > button > img {
   background: transparent;
-}
+} */
 
 @media screen and (max-width: 750px) {
+
   .navbar-right {
     display: none;
   }
   .navbar-mobile {
     display: flex;
     flex-direction: row-reverse;
+    align-items: baseline;
   }
 }
