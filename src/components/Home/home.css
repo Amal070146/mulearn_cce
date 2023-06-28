@@ -30,10 +30,24 @@
 .home-space-img {
   width: 45%;
   min-width: 300px;
+  animation-name: picAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
+
 .home-space-img > img {
   width: 100%;
   min-width: 300px;
+  animation-play-state: running;
+}
+@keyframes picAnimation {
+  from {
+    rotate: 5deg;
+  }
+  to {
+    transform: rotate(-5deg);
+  }
 }
 .home-content-wrapper {
   width: 30%;

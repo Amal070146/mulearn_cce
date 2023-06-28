@@ -5,7 +5,7 @@ import mupink from "../../assets/EVENTS/mu-pink.png";
 
 const Events = () => {
   return (
-    <div className="events-wrapper" id="events">
+    <div className="events-wrapper" id="events" data-aos="fade-up">
       <h1>Karma is the key!</h1>
       <div className="event-content-wrapper">
         <p>
