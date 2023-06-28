@@ -314,3 +314,91 @@
     left: 56%;
   }
 }
+
+
+@media screen and (max-width: 650px) {
+  .team-wrapper{
+overflow: hidden;
+  }
+  .team-body-wrapper {
+    height: 140vh;
+
+  }
+  .team-bg-line-wrapper > :nth-child(4) {
+    display: block;
+  }
+   .team-bg-line-wrapper {
+ width: 100%;
+  gap: 250px;
+}
+  .team-image-individual {
+    height: 10rem;
+    width: 10rem;
+
+  }
+  .team-name-designation {
+    font-size: 1rem;
+  }
+  .team{
+    width: 10rem;
+  }
+  .team1 {
+    position: absolute;
+    margin-top: -120px;
+    top: 0;
+    left: 10%;
+  }
+
+  .team2 {
+    position: absolute;
+    margin-top: -120px;
+    top: 0%;
+    left: 55%;
+  }
+
+  .team3 {
+    position: absolute;
+    margin-top: 150px;
+    top: 0;
+    left: 8%;
+  }
+
+  .team4 {
+    position: absolute;
+    margin-top: 160px;
+
+    top: 100%;
+    left: 54%;
+  }
+
+  .team5 {
+    position: absolute;
+    margin-top: 440px;
+
+    top: 100%;
+    left: 8%;
+  }
+
+  .team6 {
+    position: absolute;
+    margin-top: 450px;
+
+    top: 100%;
+    left: 53%;
+  }
+
+  .team7 {
+    position: absolute;
+    margin-top: 720px;
+    top: 100%;
+    left: 7%;
+  }
+
+  .team8 {
+    position: absolute;
+    margin-top: 740px;
+
+    top: 100%;
+    left: 52%;
+  }
+}
