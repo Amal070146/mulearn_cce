@@ -7,7 +7,7 @@ import earth from "../../assets/home/earth.png";
 
 const Home = () => {
   return (
-    <div className="home-wrapper">
+    <div className="home-wrapper" id="home">
       <div className="home-wrapper-div">
         <div>
           <div className="home-main">

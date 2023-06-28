@@ -4,7 +4,7 @@ import astrologer from "../../assets/contact/astrologer.png";
 import planet from "../../assets/contact/blueearth.png";
 const Contact = () => {
   return (
-    <div className="contact-wrapper">
+    <div className="contact-wrapper" id="contact">
       <h1>Connect With Us</h1>
       <div className="contact-content-wrapper">
         <div className="contact-left-div">

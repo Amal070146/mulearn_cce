@@ -8,7 +8,7 @@ import line2 from "../../assets/team/line2.png";
 
 const OurTeam = () => {
   return (
-    <div className="team-wrapper">
+    <div className="team-wrapper" id="team">
       <h1>Our Team</h1>
       <div className="team-body-wrapper">
         <div className="team-bg-line-wrapper">

@@ -9,7 +9,7 @@ import mu from "../../assets/EVENTS/mu-pink.png";
 import muw from "../../assets/about/mu-mark.png";
 const About = () => {
   return (
-    <div id="#about" className="about-wrapper">
+    <div id="about" className="about-wrapper">
       <div className="about-content-main-wrapper">
         <h1>µLearn Pathway</h1>
         <div className="pathway-arch">
