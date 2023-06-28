@@ -54,7 +54,6 @@
   width: 15rem;
 }
 .team-name-designation {
-  flex-shrink: 0;
   height: fit-content;
   position: relative;
   width: 100%;
