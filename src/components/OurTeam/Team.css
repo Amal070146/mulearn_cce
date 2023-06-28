@@ -3,14 +3,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 100px;
   background: url("../../assets//team/bg.png") center center/contain no-repeat
     local;
 }
 
 .team-body-wrapper {
   position: relative;
-  height: 90vh;
+  height: 100vh;
 }
 .team-bg-line-wrapper {
   width: 100%;
@@ -37,6 +37,14 @@
 }
 .team {
   height: 20rem;
+  width: 15rem;
+  /* background-color: #2196da; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
 }
 .team-image-individual {
   height: 15rem;
@@ -53,11 +61,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.62rem;
 
   .team-member-name {
     color: #000000;
     display: flex;
-    font-size: 1.62rem;
     font-weight: 700;
     height: fit-content;
     justify-content: center;
@@ -67,7 +75,7 @@
   .team-member-designation {
     color: #ad58ff;
     display: flex;
-    font-size: 1.62rem;
+
     font-weight: 500;
     height: fit-content;
     justify-content: center;
@@ -85,31 +93,38 @@
 
 .team1 {
   position: absolute;
+  margin-top: -50px;
   top: 0;
   left: 5%;
 }
 
 .team2 {
   position: absolute;
+  margin-top: -70px;
+
   top: 0;
   left: 28%;
 }
 
 .team3 {
   position: absolute;
+  margin-top: -60px;
+
   top: 0;
   left: 50%;
 }
 
 .team4 {
   position: absolute;
+  margin-top: -50px;
+
   top: 0;
   left: 74%;
 }
 
 .team5 {
   position: absolute;
-  margin-top: 350px;
+  margin-top: 300px;
 
   top: 100%;
   left: 7%;
@@ -117,7 +132,7 @@
 
 .team6 {
   position: absolute;
-  margin-top: 350px;
+  margin-top: 330px;
 
   top: 100%;
   left: 30%;
@@ -132,7 +147,7 @@
 
 .team8 {
   position: absolute;
-  margin-top: 350px;
+  margin-top: 310px;
 
   top: 100%;
   left: 77%;
@@ -140,11 +155,16 @@
 
 @media screen and (max-width: 1200px) {
   .team-wrapper {
+    margin-top: 50px;
     gap: 100px;
   }
   .team-body-wrapper {
     height: 120vh;
   }
+  .team-bg-line-wrapper {
+ 
+  gap: 270px;
+}
   .team-bg-line-wrapper > :nth-child(3) {
     display: block;
   }
@@ -154,28 +174,28 @@
   }
   .team1 {
     position: absolute;
-    margin-top: -50px;
+    margin-top: -70px;
     top: 0;
     left: 3%;
   }
 
   .team2 {
     position: absolute;
-    margin-top: -70px;
+    margin-top: -100px;
     top: 0%;
     left: 37%;
   }
 
   .team3 {
     position: absolute;
-    margin-top: -30px;
+    margin-top: -60px;
     top: 0;
     left: 69%;
   }
 
   .team4 {
     position: absolute;
-    margin-top: 310px;
+    margin-top: 230px;
 
     top: 100%;
     left: 4%;
@@ -183,7 +203,7 @@
 
   .team5 {
     position: absolute;
-    margin-top: 350px;
+    margin-top: 280px;
 
     top: 100%;
     left: 37%;
@@ -191,7 +211,7 @@
 
   .team6 {
     position: absolute;
-    margin-top: 300px;
+    margin-top: 245px;
 
     top: 100%;
     left: 68%;
@@ -199,16 +219,98 @@
 
   .team7 {
     position: absolute;
-    margin-top: 660px;
+    margin-top: 590px;
     top: 100%;
-    left: 24%;
+    left: 20%;
   }
 
   .team8 {
     position: absolute;
-    margin-top: 680px;
+    margin-top: 600px;
 
     top: 100%;
     left: 60%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .team-body-wrapper {
+    height: 120vh;
+  }
+  .team-bg-line-wrapper > :nth-child(3) {
+    display: block;
+  }
+   .team-bg-line-wrapper {
+ 
+  gap: 250px;
+}
+  .team-image-individual {
+    height: 10rem;
+    width: 10rem;
+  }
+  .team-name-designation {
+    font-size: 1.2rem;
+  }
+  .team{
+    width: 12.3rem;
+  }
+  .team1 {
+    position: absolute;
+    margin-top: -100px;
+    top: 0;
+    left: 3%;
+  }
+
+  .team2 {
+    position: absolute;
+    margin-top: -120px;
+    top: 0%;
+    left: 35%;
+  }
+
+  .team3 {
+    position: absolute;
+    margin-top: -80px;
+    top: 0;
+    left: 65%;
+  }
+
+  .team4 {
+    position: absolute;
+    margin-top: 160px;
+
+    top: 100%;
+    left: 4%;
+  }
+
+  .team5 {
+    position: absolute;
+    margin-top: 220px;
+
+    top: 100%;
+    left: 36%;
+  }
+
+  .team6 {
+    position: absolute;
+    margin-top: 190px;
+
+    top: 100%;
+    left: 65%;
+  }
+
+  .team7 {
+    position: absolute;
+    margin-top: 520px;
+    top: 100%;
+    left: 20%;
+  }
+
+  .team8 {
+    position: absolute;
+    margin-top: 530px;
+
+    top: 100%;
+    left: 56%;
   }
 }
