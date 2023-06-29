@@ -29,7 +29,9 @@ const Navbar = () => {
       style={{ background: navbg ? "rgba(255,255,255,0.7)" : "transparent" }}
     >
       <div className="navbar-left">
-        <img src={logo} alt="" />
+        <a href="#home">
+          <img src={logo} alt="" />
+        </a>
       </div>
       <div className="navbar-right">
         {navContent.map((content, i) => (
@@ -37,14 +39,17 @@ const Navbar = () => {
             <p
               style={{
                 borderBottom: window.location.href.includes(`#${content}`)
-                  ? "4px solid #A1A1FF"
+                  ? "8px solid #A1A1FF"
                   : "",
+                height: "12px",
+                fontSize: "18px",
               }}
             >
               {content}
             </p>
           </a>
-        ))}{" "}
+        ))}
+
         <button>Join Mulearn</button>
       </div>
       <div className="navbar-mobile">
@@ -58,8 +63,10 @@ const Navbar = () => {
                 <p
                   style={{
                     borderBottom: window.location.href.includes(`#${content}`)
-                      ? "4px solid #A1A1FF"
+                      ? "8px solid #A1A1FF"
                       : "",
+                    height: "12px",
+                    fontSize: "18px",
                   }}
                 >
                   {content}

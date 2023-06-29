@@ -3,7 +3,6 @@ import "./home.css";
 import mu from "../../assets/home/mu.png";
 import space from "../../assets/home/space.png";
 import content from "../../assets/home/GroupRight.png";
-import earth from "../../assets/home/earth.png";
 
 const Home = () => {
   return (
