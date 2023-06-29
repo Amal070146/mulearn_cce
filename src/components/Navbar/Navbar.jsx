@@ -14,7 +14,7 @@ const Navbar = () => {
   const navContent = ["home", "about", "events", "team", "contact"];
   useEffect(() => {}, [path]);
   const changeNavBg = () => {
-    window.scrollY >= 100 ? setNavBg(true) : setNavBg(false);
+    window.scrollY >= 150 ? setNavBg(true) : setNavBg(false);
   };
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const Navbar = () => {
             <p
               style={{
                 borderBottom: window.location.href.includes(`#${content}`)
-                  ? "2px solid #A1A1FF"
+                  ? "4px solid #A1A1FF"
                   : "",
               }}
             >
@@ -58,7 +58,7 @@ const Navbar = () => {
                 <p
                   style={{
                     borderBottom: window.location.href.includes(`#${content}`)
-                      ? "2px solid #A1A1FF"
+                      ? "4px solid #A1A1FF"
                       : "",
                   }}
                 >

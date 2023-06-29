@@ -60,7 +60,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.62rem;
+  font-size: 1.6rem;
 
   .team-member-name {
     color: #000000;
