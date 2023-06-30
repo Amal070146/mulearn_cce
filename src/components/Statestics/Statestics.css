@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
+  background: url("../../assets/statestics-bg.png") center center/cover
+    no-repeat local;
 }
 
 .statestics-content-wrapper {
@@ -14,12 +16,13 @@
 
 .statestics-content-left {
   display: flex;
-  gap: 20px;
-  width: 60%;
+  gap: 0px;
+  width: 55%;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
-  padding-left: 8%;
+  padding: 40px 30px;
+  padding-left: 6%;
+  padding-right: 6%;
   border: 2px solid #e2d5f1;
   border-radius: 0px 20px 20px 0px;
   border-left: none;
@@ -27,13 +30,20 @@
     no-repeat local;
 }
 
-.statestics-content-left-individual{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.statestics-content-left-individual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.statestics-content-left-individual>:nth-child(1){
-    font-size: 40px;
+.statestics-content-left-individual > p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ae59ff;
+}
+.statestics-content-left-individual > :nth-child(1) {
+  font-size: 60px;
+  font-weight: 600;
+  color: black;
 }
 .statestics-content-right {
   display: flex;
@@ -42,14 +52,63 @@
   justify-content: center;
   padding-right: 8%;
 }
-.statestics-content-right >img{
-    width: 300px;
+.statestics-content-right > img {
+  width: 300px;
 }
 
 .statestics-content-right > p {
   color: #ae59ff;
   text-align: center;
-  font-size: 57px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 700;
+}
+
+@media screen and (max-width: 1350px) {
+  .statestics-content-left {
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 50%;
+  }
+
+  .statestics-content-left-individual > p {
+    font-size: 25px;
+  }
+  .statestics-content-left-individual > :nth-child(1) {
+    font-size: 60px;
+  }
+
+  .statestics-content-right > img {
+    width: 200px;
+  }
+
+  .statestics-content-right > p {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .statestics-content-wrapper {
+  
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .statestics-content-left {
+    border: 2px solid #e2d5f1;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 30px;
+    align-items: center;
+  }
+  .statestics-content-right{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .statestics-content-left{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
 }

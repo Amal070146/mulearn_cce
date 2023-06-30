@@ -4,7 +4,7 @@ import logo from '../../assets/logo-large.png'
 const Statestics = () => {
   return (
     <div className="Statestics-wrapper">
-      <h1>CCE Statestics</h1>
+      <h1>CCE Statistics</h1>
       <div className="statestics-content-wrapper">
         <div className="statestics-content-left">
           <div className="statestics-content-left-individual">
