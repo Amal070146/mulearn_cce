@@ -50,7 +50,8 @@
   }
 }
 .home-content-wrapper {
-  width: 30%;
+  margin-top: -60px;
+  width: 40%;
   z-index: 0;
 }
 
@@ -67,6 +68,12 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+.home-content-wrapper {
+  width: 30%;
+  z-index: 0;
+  margin-top: -100px;
+
+}
 }
 @media screen and (max-width: 1000px) {
   .home-main {
@@ -77,8 +84,9 @@
   }
   .home-content-wrapper {
     width: 80%;
-    max-width: 550px;
+    max-width: 550px;  margin-top: 20px;
   }
+
 }
 /* .home-content-wrapper .mu {
   width: 100%;

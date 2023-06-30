@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
       <div className="footer-line-divider"></div>
       <div className="footer-div-third">
-        <div>
+        <div className="footer-div-third-fir">
           <a href="">Privacy Policy</a>
           <a href="">Terms and Conditions</a>
           <a href="">Support</a>

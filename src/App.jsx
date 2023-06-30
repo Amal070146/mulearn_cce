@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Events from "./components/Events/Events";
 import OurTeam from "./components/OurTeam/OurTeam";
+import Statestics from "./components/Statestics/Statestics";
 import Footer from "./components/Footer/Footer";
 
 import Contact from "./components/Contact/Contact";
@@ -17,12 +18,11 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulating a 3-second delay
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 1000);
 
-    // Clean up the timer on component unmount
+    
     return () => clearTimeout(timer);
   }, []);
   return (
@@ -45,6 +45,7 @@ function App() {
           <About />
           <Events />
           <OurTeam />
+          <Statestics />
           <Contact />
           <Footer />
         </div>
