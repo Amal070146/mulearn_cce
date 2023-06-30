@@ -9,7 +9,7 @@ import OurTeam from "./components/OurTeam/OurTeam";
 import Statestics from "./components/Statestics/Statestics";
 import Footer from "./components/Footer/Footer";
 
-import Contact from "./components/Contact/Contact";
+import Connect from "./components/Contact/Connect";
 import AOS from "aos";
 
 import "aos/dist/aos.css";
@@ -28,14 +28,17 @@ function App() {
   return (
     <div className="App">
       {isLoading ? (
-        <div className="loader" style={{
-          width:"100vw",
-          height:"100vh",
-          background:"black",
-          display:"flex",
-          alignItems:"center",
-          justifyContent:"center"
-        }}>
+        <div
+          className="loader"
+          style={{
+            width: "100vw",
+            height: "100vh",
+            background: "black",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <img src={Logo} alt="" />
         </div>
       ) : (
@@ -46,7 +49,7 @@ function App() {
           <Events />
           <OurTeam />
           <Statestics />
-          <Contact />
+          <Connect />
           <Footer />
         </div>
       )}
