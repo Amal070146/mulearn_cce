@@ -10,7 +10,7 @@
 
 .team-body-wrapper {
   position: relative;
-  height: 100vh;
+  height: 90vh;
 }
 .team-bg-line-wrapper {
   width: 100%;
@@ -210,7 +210,7 @@
 
 @media screen and (max-width: 780px) {
   .team-body-wrapper {
-    height: 120vh;
+    height: 105vh;
   }
   .team-bg-line-wrapper > :nth-child(3) {
     display: block;
@@ -278,7 +278,7 @@
     overflow: hidden;
   }
   .team-body-wrapper {
-    height: 130vh;
+    height: 120vh;
   }
   .team-bg-line-wrapper > :nth-child(4) {
     display: block;
@@ -393,7 +393,9 @@
 
 
 @media screen and (max-width: 380px) {
-
+  .team-body-wrapper {
+    height: 115vh;
+  }
   .team-image-individual {
     height: 8.5rem;
     width: 8.5rem;
