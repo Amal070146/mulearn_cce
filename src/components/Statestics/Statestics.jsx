@@ -3,7 +3,7 @@ import "./Statestics.css";
 import logo from '../../assets/logo-large.png'
 const Statestics = () => {
   return (
-    <div className="Statestics-wrapper">
+    <div className="Statestics-wrapper" data-aos="fade-up">
       <h1>CCE Statistics</h1>
       <div className="statestics-content-wrapper">
         <div className="statestics-content-left">

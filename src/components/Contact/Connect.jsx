@@ -5,7 +5,7 @@ import discord from "../../assets/about/discordlogo.png";
 import whatsapp from "../../assets/pinkwhatsapp.png";
 const Contact = () => {
   return (
-    <div className="connect-wrapper" id="contact" data-aos="fade-up">
+    <div className="connect-wrapper" id="contact" data-aos="fade-up" >
       <h1>Connect With Us</h1>
       <div className="connect-content-wrapper">
         <div className="connect-content">

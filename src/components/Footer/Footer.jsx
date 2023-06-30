@@ -12,7 +12,7 @@ import whitelogo from "../../assets/whitelogo.png";
 
 const Footer = () => {
   return (
-    <div className="footer-wrapper">
+    <div className="footer-wrapper" data-aos="fade-up">
       <h1>Explore Learning Circles</h1>
       <div className="footer-content-wrapper">
         <div className="footer-first-div">
