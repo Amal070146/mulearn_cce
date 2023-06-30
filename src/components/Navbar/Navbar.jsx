@@ -40,10 +40,11 @@ const Navbar = () => {
               <p
                 style={{
                   borderBottom: window.location.href.includes(`#${content}`)
-                    ? "8px solid #A1A1FF"
+                    ? "8px solid #B3B3FF"
                     : "",
                   height: "12px",
                   fontSize: "18px",
+                  fontWeight: 600,
                 }}
               >
                 {content}
@@ -51,7 +52,7 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-        <button>Join Mulearn</button>
+        <button>Join µlearn</button>
       </div>
       <div className="navbar-mobile">
         <button onClick={openMenu}>
@@ -64,7 +65,7 @@ const Navbar = () => {
                 <p
                   style={{
                     borderBottom: window.location.href.includes(`#${content}`)
-                      ? "8px solid #A1A1FF"
+                      ? "8px solid #B3B3FF"
                       : "",
                     height: "12px",
                     fontSize: "18px",

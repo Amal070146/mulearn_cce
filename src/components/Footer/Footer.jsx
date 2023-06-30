@@ -16,7 +16,7 @@ const Footer = () => {
         <div>
           <img src={Logo} alt="" />
         </div>
-        <div>
+        <div className="footer-div-first-set">
           <div>
             <h4>Connect</h4>
             <a href="">About</a>
@@ -42,13 +42,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-line-divider"></div>
-      <div>
+      <div className="footer-div-third">
         <div>
           <a href="">Privacy Policy</a>
           <a href="">Terms and Conditions</a>
           <a href="">Support</a>
         </div>
-        <div>
+        <div className="footer-social-media">
           <img src={whatsapp} alt="" />
           <img src={twitter} alt="" />
           <img src={insta} alt="" />
