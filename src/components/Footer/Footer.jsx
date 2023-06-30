@@ -55,15 +55,19 @@ const Footer = () => {
         <div className="footer-third-div">
           <a href="">
             <img src={insta} alt="" />
+            <p>Instagram</p>
           </a>
           <a href="">
             <img src={facebook} alt="" />
+            <p>Facebook</p>
           </a>
           <a href="">
             <img src={twitter} alt="" />
+            <p>Twitter</p>
           </a>
           <a href="">
             <img src={linkedin} alt="" />
+            <p>LinkedIn</p>
           </a>
         </div>
         <div className="footer-division"></div>
@@ -78,7 +82,9 @@ const Footer = () => {
             </b>
             & Developed by&nbsp;
             <b>
-              <a href="https://www.linkedin.com/in/amal-c-p/">Amal C P</a>
+              <a href="https://www.linkedin.com/in/amal-c-p/">
+                <span>Amal C P</span>
+              </a>
             </b>
           </p>
         </div>
