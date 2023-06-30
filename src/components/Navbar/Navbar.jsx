@@ -11,7 +11,7 @@ const Navbar = () => {
     setopenmenu(!openmenu);
   }
   const path = useReactPath();
-  const navContent = ["home", "about", "events", "team", "contact"];
+  const navContent = ["home", "about", "team", "contact"];
   useEffect(() => {}, [path]);
   const changeNavBg = () => {
     window.scrollY >= 150 ? setNavBg(true) : setNavBg(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div
       className="navbar-wrapper"
-      style={{ background: navbg ? "rgba(255,255,255,0.7)" : "transparent" }}
+      style={{ background: navbg ? "rgba(255,255,255,0.4)" : "transparent" }}
     >
       <div className="navbar-left">
         <a href="#home">
@@ -34,22 +34,23 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-right">
-        {navContent.map((content, i) => (
-          <a href={`#${content}`} key={i.toString() + content}>
-            <p
-              style={{
-                borderBottom: window.location.href.includes(`#${content}`)
-                  ? "8px solid #A1A1FF"
-                  : "",
-                height: "12px",
-                fontSize: "18px",
-              }}
-            >
-              {content}
-            </p>
-          </a>
-        ))}
-
+        <div>
+          {navContent.map((content, i) => (
+            <a href={`#${content}`} key={i.toString() + content}>
+              <p
+                style={{
+                  borderBottom: window.location.href.includes(`#${content}`)
+                    ? "8px solid #A1A1FF"
+                    : "",
+                  height: "12px",
+                  fontSize: "18px",
+                }}
+              >
+                {content}
+              </p>
+            </a>
+          ))}
+        </div>
         <button>Join Mulearn</button>
       </div>
       <div className="navbar-mobile">

@@ -12,7 +12,7 @@ import youtube from "../../assets/Footer/youtube.png";
 const Footer = () => {
   return (
     <div className="footer-wrapper">
-      <div>
+      <div className="footer-div-first">
         <div>
           <img src={Logo} alt="" />
         </div>

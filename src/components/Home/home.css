@@ -28,7 +28,7 @@
   padding: 40px 0px;
 }
 .home-space-img {
-  width: 45%;
+  width: 50%;
   min-width: 300px;
   animation-name: picAnimation;
   animation-duration: 3s;
@@ -58,7 +58,16 @@
   width: 100%;
   min-width: 300px;
 }
-
+@media screen and (max-width: 1600px) {
+.home-space-img {
+  width: 45%;
+  min-width: 300px;
+  animation-name: picAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+}
 @media screen and (max-width: 1000px) {
   .home-main {
     flex-direction: column;
