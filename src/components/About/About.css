@@ -106,7 +106,40 @@
 .marquee-img {
   width: 45px;
 }
+@media screen and (max-width: 1600px) {
+  .about-wrapper {
+    margin-top: 150px;
+  }
 
+  .hemisphere {
+    width: 60%;
+    height: 30vh;
+  }
+  .track-about-div > img {
+    width: 40px;
+  }
+  .about-individual-wrapper {
+    width: 30%;
+  }
+  .about-individual-wrapper > div > h2 {
+    font-size: 20px;
+  }
+  .about-individual-wrapper > div > p {
+    font-size: 15px;
+  }
+  .set1 {
+    top: 26vh;
+    left: 65%;
+  }
+  .set2 {
+    left: 35%;
+  }
+
+  .set3 {
+    top: 26vh;
+    left: 5%;
+  }
+}
 @media screen and (max-width: 1000px) {
   .about-wrapper {
     margin-top: 150px;
@@ -148,6 +181,7 @@
   .pathway-arch {
     align-items: start;
     justify-content: left;
+    height: 68vh;
   }
   .hemisphere {
     width: 4px;
@@ -160,17 +194,17 @@
     width: 75%;
   }
   .set1 {
-    top: 58vh;
+    top: 54vh;
     left: 8%;
   }
 
   .set2 {
-    top: 28vh;
+    top: 26vh;
     left: 8%;
   }
 
   .set3 {
-    top: -2vh;
+    top: -3vh;
     left: 8%;
   }
   .track-about-div {
