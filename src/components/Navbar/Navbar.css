@@ -16,11 +16,11 @@
   padding: 0px 35px;
   background-color: transparent;
 }
-.navbar-right>div{
+.navbar-right > div {
   display: flex;
   gap: 5vh;
 }
-.navbar-right>div > a > p {
+.navbar-right > div > a > p {
   text-transform: capitalize;
 }
 .navbar-right {
@@ -31,12 +31,12 @@
   background-color: transparent;
 }
 
-.navbar-right > button>a {
+.navbar-right > button > a {
   padding: 10px 15px;
   border-radius: 5px;
   color: #fff;
   background-color: #6f6fff;
-  font-weight:600 ;
+  font-weight: 600;
 }
 
 .navbar-mobile {
@@ -48,21 +48,30 @@
   top: 15px;
 }
 .navbar-mobile > div {
-  background-color: #AE59FF;
+  background-color: rgba(18, 153, 180, 0.7);
+  z-index: 9999;
+  backdrop-filter: blur(8px);
   padding: 8px;
-
-  font-size: 16px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 5px;
+  height: 40vh;
+  width: 50vw;
+  justify-content: space-between;
+  padding: 20px;
 }
 .navbar-mobile > div > a > p {
   color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
-.navbar-mobile > div > button >a{
+.navbar-mobile > div > button > a {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 600;
+
 }
 /* 
 .navbar-mobile > button,

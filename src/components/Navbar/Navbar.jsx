@@ -67,10 +67,10 @@ const Navbar = () => {
                 <p
                   style={{
                     borderBottom: window.location.href.includes(`#${content}`)
-                      ? "8px solid #B3B3FF"
+                      ? "4px solid #B3B3FF"
                       : "",
                     height: "12px",
-                    fontSize: "18px",
+                    
                   }}
                 >
                   {content}

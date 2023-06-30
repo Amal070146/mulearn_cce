@@ -117,10 +117,10 @@ transform: scale(1.1);
 
 @media screen and (max-width: 480px){
   .footer-content-wrapper > div {
-  width: 80%;
+  width: 82.5%;
 }
 .footer-first-div > p {
-  width: 90%;
+  width: 100%;
 }
 .footer-third-div>a>p{
   display: none;
