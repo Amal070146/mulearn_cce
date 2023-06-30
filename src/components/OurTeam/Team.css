@@ -10,7 +10,7 @@
 
 .team-body-wrapper {
   position: relative;
-  height: 90vh;
+  height: 85vh;
 }
 .team-bg-line-wrapper {
   width: 100%;
@@ -143,7 +143,11 @@
   top: 100%;
   left: 77%;
 }
-
+@media screen and (max-width: 1650px){
+.team-body-wrapper {
+    height: 90vh;
+  }
+}
 @media screen and (max-width: 1200px) {
   .team-wrapper {
     margin-top: 50px;

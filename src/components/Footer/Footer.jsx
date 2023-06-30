@@ -2,62 +2,81 @@ import React from "react";
 import "./Footer.css";
 
 import Logo from "../../assets/logo.png";
-import whatsapp from '../../assets/Footer/whatsapp.png'
-import facebook from '../../assets/Footer/facebook.png'
-import insta from '../../assets/Footer/insta.png'
-import linkedin from '../../assets/Footer/linked.png'
-import twitter from '../../assets/Footer/twitter.png'
-import youtube from "../../assets/Footer/youtube.png";
+import facebook from "../../assets/Footer/facebook.png";
+import insta from "../../assets/Footer/insta.png";
+import linkedin from "../../assets/Footer/linked.png";
+import twitter from "../../assets/Footer/twitter.png";
+
+import createbutton from "../../assets/createorjoin.png";
+import whitelogo from "../../assets/whitelogo.png";
 
 const Footer = () => {
   return (
     <div className="footer-wrapper">
-      <div className="footer-div-first">
+      <h1>Explore Learning Circles</h1>
+      <div>
         <div>
-          <img src={Logo} alt="" />
+          <p>
+            An informal mechanism for bringing together learners who are
+            interested in the same topic from across different fields and
+            disciplines. A fantastic way to spend a small amount of time
+            learning about new things with a group of people with same
+            interests!
+          </p>
+          <div>
+            <a href="">
+              <p>Create/Join Learning Circles</p>
+              <img src={createbutton} alt="" />
+            </a>
+          </div>
         </div>
-        <div className="footer-div-first-set">
+        <div>
           <div>
-            <h4>Connect</h4>
-            <a href="">About</a>
-            <a href="">Contact</a>
-            <a href="">Mentors</a>
-            <a href="">Enablers</a>
-            <a href="">Careers</a>
+            <p>
+              Reach us at
+              <b>
+                <a href="mailto:mulearn@cce.edu.in">mulearn@cce.edu.in</a>
+              </b>
+            </p>
           </div>
           <div>
-            <h4>Resources</h4>
-            <a href="">Campus Chapters</a>
-            <a href="">Interest Groups</a>
-            <a href="">Learning Circles</a>
-            <a href="">Our Team</a>
-            <a href="">Partners</a>
+            <img src={whitelogo} alt="" />
           </div>
           <div>
-            <h4>Media</h4>
+            <a href="https://mulearn.org/">µLearn</a>
+            <a href="">Events</a>
             <a href="">Gallery</a>
-            <a href="">News</a>
-            <a href="">Blogs</a>
+            <a href="https://bit.ly/mulearnbrand">Branding</a>
           </div>
         </div>
-      </div>
-      <div className="footer-line-divider"></div>
-      <div className="footer-div-third">
-        <div className="footer-div-third-fir">
-          <a href="">Privacy Policy</a>
-          <a href="">Terms and Conditions</a>
-          <a href="">Support</a>
-        </div>
-        <div className="footer-social-media">
-          <img src={whatsapp} alt="" />
-          <img src={twitter} alt="" />
-          <img src={insta} alt="" />
-          <img src={linkedin} alt="" />
-          <img src={youtube} alt="" />
-          <img src={facebook} alt="" />
-        </div>
         <div>
-          <p>© Copyright 2023, All Rights Reserved</p>
+          <a href="">
+            <img src={insta} alt="" />
+          </a>
+          <a href="">
+            <img src={facebook} alt="" />
+            <a href="">
+              <img src={twitter} alt="" />
+            </a>
+            <a href="">
+              <img src={linkedin} alt="" />
+            </a>
+          </a>
+        </div>
+        <div className="footer-division"></div>
+        <div>
+          <p>
+            Designed by
+            <b>
+              <a href="https://www.linkedin.com/in/enricsneelamkavil/">
+                Enric S Neelamavil
+              </a>
+            </b>
+            & Developed by
+            <b>
+              <a href="https://www.linkedin.com/in/amal-c-p/">Amal C P</a>
+            </b>
+          </p>
         </div>
       </div>
     </div>

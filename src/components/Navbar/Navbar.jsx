@@ -52,7 +52,9 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-        <button>Join µlearn</button>
+        <button>
+          <a href="http://app.mulearn.org">Join µlearn</a>
+        </button>
       </div>
       <div className="navbar-mobile">
         <button onClick={openMenu}>
@@ -75,7 +77,9 @@ const Navbar = () => {
                 </p>
               </a>
             ))}
-            <button>Join Mulearn</button>
+            <button>
+              <a href="http://app.mulearn.org">Join µlearn</a>
+            </button>
           </div>
         )}
       </div>

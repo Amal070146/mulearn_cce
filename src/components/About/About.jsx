@@ -11,7 +11,13 @@ const About = () => {
   return (
     <div id="about" className="about-wrapper" data-aos="fade-up">
       <div className="about-content-main-wrapper">
-        <h1>µLearn Pathway</h1>
+        <div className="about-heading">
+          <h1>µLearn Pathway</h1>
+          <p>
+            Curious to know more about µLearn? Wanna explore what all wonders we
+            can do as a team? Come, witness it by yourself!
+          </p>
+        </div>
         <div className="pathway-arch">
           <div class="hemisphere"></div>
           <div className="about-content-wrapper">
