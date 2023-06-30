@@ -9,62 +9,204 @@
   width: 100%;
 }
 
-.connect-content-wrapper{
+.connect-content-wrapper {
   display: flex;
   align-items: center;
-  border-bottom: 5px solid #EBD7FF;
-  justify-content:space-between ;
+  border-bottom: 5px solid #ebd7ff;
+  justify-content: space-between;
   width: 80%;
 }
-.connect-content{
+.connect-content {
   width: 55%;
   padding: 5%;
 }
-.connect-content-inner{
+.connect-content-inner {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+  gap: 30px;
 }
-.connect-content-div{
+.connect-content-div {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.connect-content-div>:nth-child(1){
+.connect-content-div > :nth-child(1) {
   color: #000;
-font-size: 40px;
-font-weight: 600;
-line-height: 39.618px;
-}.connect-content-div>:nth-child(2){
- color: #757575;
-font-size: 25px;
-font-weight: 400;
-line-height: 30.098px;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 39.618px;
 }
-.connect-image-wrapper{
+.connect-content-div > :nth-child(2) {
+  color: #757575;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30.098px;
+}
+.connect-image-wrapper {
   height: auto;
   width: fit-content;
 }
-.connect-image-wrapper>img{
+.connect-image-wrapper > img {
   height: 350px;
 }
+.connect-content-button {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.connect-content-button > button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  border: 2px solid #ae59ff;
+  height: 50px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.connect-content-button > button > img {
+  width: 20px;
+}
+.connect-content-button > :nth-child(1) {
+  background-color: #ae59ff;
+  color: white;
+}
+.connect-content-button > :nth-child(2) {
+  color: #ae59ff;
+}
 @media screen and (max-width: 1600px) {
-.connect-content-div>:nth-child(1){
-font-size: 36px;
-line-height: 39.618px;
-}.connect-content-div>:nth-child(2){
-font-size: 25px;
-line-height: 30.098px;
+  .connect-content {
+    width: 55%;
+    padding: 2%;
+  }
+  .connect-content-div > :nth-child(1) {
+    font-size: 32px;
+    line-height: 39.618px;
+  }
+  .connect-content-div > :nth-child(2) {
+    font-size: 21px;
+    line-height: 30.098px;
+  }
+  .connect-image-wrapper > img {
+    height: 280px;
+  }
 }
- .connect-image-wrapper>img{
-  height: 280px;
+@media screen and (max-width: 1300px) {
+  .connect-content {
+    padding: 0%;
+  }
+  .connect-image-wrapper > img {
+    height: 200px;
+  }
 }
+@media screen and (max-width: 1100px) {
+  .connect-content-div > :nth-child(1) {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .connect-content-div > :nth-child(2) {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .connect-content-inner {
+    gap: 15px;
+  }
+  .connect-content-button button{
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 900px) {
-
- 
+  .connect-wrapper{
+    gap: 30px;
+  }
+  .connect-content-div > :nth-child(1) {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .connect-content-div > :nth-child(2) {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .connect-content-inner {
+    gap: 12px;
+  }
+  .connect-content-button > button {
+    padding: 8px 12px;
+    gap: 8px;
+    height: 45px;
+  }
+  .connect-image-wrapper > img {
+    height: 150px;
+  }
+  .connect-content-button {
+    gap: 15px;
+  }
 }
-@media screen and (max-width: 600px){
-
+@media screen and (max-width: 780px) {
+  .connect-content {
+    width: 70%;
+  }
+  .connect-content-div > :nth-child(1) {
+    font-size: 20px;
+    line-height: 18px;
+  }
+  .connect-content-div > :nth-child(2) {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .connect-content-inner {
+    gap: 12px;
+  }
+  .connect-content-button {
+    gap: 10px;
+  }
+  .connect-content-button > button {
+    padding: 8px 12px;
+    gap: 8px;
+    height: 45px;
+  }
+  .connect-image-wrapper > img {
+    height: 120px;
+  }
+    .connect-content-button button{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .connect-content-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .connect-content {
+    width: 90%;
+  }
+  .connect-content-inner,
+  .connect-content-div {
+    align-items: center;
+    text-align: center;
+  }
+  .connect-image-wrapper > img {
+    height: auto;
+    width: 350px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .connect-content-div > :nth-child(1) {
+    font-size: 18px;
+    line-height: 15px;
+  }
+  .connect-content-div > :nth-child(2) {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .connect-image-wrapper > img {
+    width: 300px;
+  }
+     .connect-content-button button{
+    font-size: 11px;
+  }
 }

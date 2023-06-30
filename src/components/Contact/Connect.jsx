@@ -2,6 +2,7 @@ import React from "react";
 import "./Connect.css";
 import image from "../../assets/connect-with-img.png";
 import discord from "../../assets/about/discordlogo.png";
+import whatsapp from "../../assets/pinkwhatsapp.png";
 const Contact = () => {
   return (
     <div className="connect-wrapper" id="contact" data-aos="fade-up">
@@ -16,14 +17,14 @@ const Contact = () => {
                 out any of the updates.
               </p>
             </div>
-            <div>
+            <div className="connect-content-button">
               <button>
                 <img src={discord} alt="" />
                 Join Discord
               </button>
               <button>
-                <img src={discord} alt="" />
-                Join Whatsapp
+                <img src={whatsapp} alt="" />
+                Join WhatsApp
               </button>
             </div>
           </div>
