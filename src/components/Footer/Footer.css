@@ -22,7 +22,6 @@
 }
 
 .footer-first-div {
-  background-color: white;
   padding: 30px;
   border-radius: 0px 0px 20px 20px;
   display: flex;
@@ -30,6 +29,10 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
+      background: url("../../assets/explore-bg.png") center center/cover no-repeat
+    local;
+  background-color: white;
+
 }
 
 .footer-first-div > p {
