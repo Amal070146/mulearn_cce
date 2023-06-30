@@ -20,31 +20,52 @@ const Events = () => {
           <div className="event-sections">
             <div className="single-event-div">
               <img src={mupink} alt="" />
-              <p>Access to invite-only events.</p>
+              <div>
+                <p>Access to</p>&nbsp;
+                <p className="about-word-underscore">invite-only</p>
+                &nbsp;
+                <p>events.</p>
+              </div>
             </div>
             <div className="single-event-div">
               <img src={mupink} alt="" />
-              <p>Paid Internships</p>
+              <div>
+                <p className="about-word-underscore">Paid</p>
+                &nbsp;
+                <p>Internships</p>
+              </div>
             </div>
           </div>
           <div className="event-sections">
             <div className="single-event-div">
               <img src={mupink} alt="" />
-              <p>Exclusive career opportunities</p>
+              <div>
+                <p className="about-word-underscore">Exclusive</p>
+                &nbsp;
+                <p>career opportunities</p>
+              </div>
             </div>
             <div className="single-event-div">
               <img src={mupink} alt="" />
-              <p>Roles in the µverse</p>
+              <div>
+                <p>Roles in the</p>&nbsp;
+                <p className="about-word-underscore">µverse</p>
+              </div>
             </div>
           </div>
           <div className="event-sections">
             <div className="single-event-div">
               <img src={mupink} alt="" />
-              <p>Industrial Networks</p>
+              <div>
+                <p className="about-word-underscore">Industrial</p>&nbsp;
+                <p>Networks</p>
+              </div>
             </div>
             <div className="single-event-div">
               <img src={mupink} alt="" />
-              <p>and many more...</p>
+              <div>
+                <p>and many more...</p>
+              </div>
             </div>
           </div>
         </div>
