@@ -59,21 +59,27 @@
   width: 100%;
   min-width: 300px;
 }
+@media screen and (max-width: 1700px) {
+  .home-space-img {
+    width: 44%;
+    min-width: 300px;
+  }
+  .home-content-wrapper {
+    width: 35%;
+    z-index: 0;
+    margin-top: -100px;
+  }
+}
 @media screen and (max-width: 1600px) {
-.home-space-img {
-  width: 45%;
-  min-width: 300px;
-  animation-name: picAnimation;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-.home-content-wrapper {
-  width: 30%;
-  z-index: 0;
-  margin-top: -100px;
-
-}
+  .home-space-img {
+    width: 45%;
+    min-width: 300px;
+  }
+  .home-content-wrapper {
+    width: 30%;
+    z-index: 0;
+    margin-top: -100px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .home-main {
@@ -84,9 +90,9 @@
   }
   .home-content-wrapper {
     width: 80%;
-    max-width: 550px;  margin-top: 20px;
+    max-width: 550px;
+    margin-top: 20px;
   }
-
 }
 /* .home-content-wrapper .mu {
   width: 100%;
