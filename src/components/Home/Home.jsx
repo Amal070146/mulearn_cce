@@ -35,6 +35,7 @@ const Home = () => {
           </div> */}
             <div className="home-content-wrapper">
               <img src={content} alt="" />
+              
             </div>
           </div>
         </div>
