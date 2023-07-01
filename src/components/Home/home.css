@@ -85,13 +85,17 @@
   .home-main {
     flex-direction: column;
 
-    gap: 40px;
+    gap: 20px;
     padding: 0px 0px;
+  }
+   .home-space-img {
+    width: 80%;
+    max-width: 450px;
   }
   .home-content-wrapper {
     width: 80%;
-    max-width: 550px;
-    margin-top: 20px;
+    max-width: 450px;
+    margin-top: 0px;
   }
 }
 /* .home-content-wrapper .mu {

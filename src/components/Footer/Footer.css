@@ -64,6 +64,9 @@
   display: flex;
   gap: 15px;
 }
+.footer-second-div img{
+  height: 37px;
+}
 .footer-second-div > div > a {
   color: white;
   font-weight: 600;

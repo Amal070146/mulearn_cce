@@ -17,6 +17,7 @@
   border-bottom: 5px solid #ebd7ff;
   justify-content: space-between;
   width: 80%;
+  height: 336px;
 }
 .connect-content {
   width: 55%;
@@ -85,6 +86,10 @@
     width: 55%;
     padding: 2%;
   }
+  .connect-content-wrapper{
+      height: 273px;
+
+  }
   .connect-content-div > :nth-child(1) {
     font-size: 32px;
     line-height: 39.618px;
@@ -103,6 +108,13 @@
   }
   .connect-image-wrapper > img {
     height: 200px;
+  }
+   .connect-content-wrapper{
+      height: 193px;
+
+  }
+   .connect-content-inner {
+    gap: 15px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -124,6 +136,10 @@
 @media screen and (max-width: 900px) {
   .connect-wrapper{
     gap: 30px;
+  }
+     .connect-content-wrapper{
+      height: 142px;
+
   }
   .connect-content-div > :nth-child(1) {
     font-size: 22px;
@@ -152,6 +168,10 @@
   .connect-content {
     width: 70%;
   }
+     .connect-content-wrapper{
+      height: 123px;
+
+  }
   .connect-content-div > :nth-child(1) {
     font-size: 20px;
     line-height: 18px;
@@ -161,7 +181,7 @@
     line-height: 16px;
   }
   .connect-content-inner {
-    gap: 12px;
+    gap: 5px;
   }
   .connect-content-button {
     gap: 10px;
@@ -169,10 +189,10 @@
   .connect-content-button > button {
     padding: 8px 12px;
     gap: 8px;
-    height: 45px;
+    height: 35px;
   }
   .connect-image-wrapper > img {
-    height: 120px;
+    height: 128px;
   }
     .connect-content-button button{
     font-size: 13px;
@@ -186,6 +206,10 @@
   .connect-content {
     width: 90%;
   }
+     .connect-content-wrapper{
+      height: 335px;
+
+  }
   .connect-content-inner,
   .connect-content-div {
     align-items: center;
@@ -195,8 +219,20 @@
     height: auto;
     width: 350px;
   }
+    .connect-content-inner {
+    gap: 12px;
+  }
+    .connect-content-button > button {
+    padding: 8px 12px;
+    gap: 8px;
+    height: 45px;
+  }
 }
 @media screen and (max-width: 430px) {
+      .connect-content-wrapper{
+      height: 305px;
+
+  }
   .connect-content-div > :nth-child(1) {
     font-size: 18px;
     line-height: 15px;
@@ -210,5 +246,11 @@
   }
      .connect-content-button button{
     font-size: 11px;
+  }
+}
+@media screen and (max-width: 392px) {
+      .connect-content-wrapper{
+      height: 320px;
+
   }
 }
