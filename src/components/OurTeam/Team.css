@@ -19,13 +19,14 @@
   flex-direction: column;
   gap: 280px;
 }
+.team-bg-line-wrapper> img{
+  width: 100%;
+}
 .team-bg-line-wrapper > :nth-child(3),
 .team-bg-line-wrapper > :nth-child(4) {
   display: none;
 }
-.team-bg-line-wrapper > img {
-  width: 100%;
-}
+
 .team-members-details-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -144,8 +145,12 @@
 }
 @media screen and (max-width: 1650px) {
   .team-body-wrapper {
-    height: 90vh;
+    height: 95vh;
   }
+  .team-bg-line-wrapper {
+
+  gap: 260px;
+}
 }
 @media screen and (max-width: 1200px) {
   .team-wrapper {
