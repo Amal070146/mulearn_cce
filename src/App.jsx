@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Events from "./components/Events/Events";
 import OurTeam from "./components/OurTeam/OurTeam";
+import DemTeam from "./components/OurTeam/DemTeam";
 import Statestics from "./components/Statestics/Statestics";
 import Footer from "./components/Footer/Footer";
 
@@ -47,7 +48,8 @@ function App() {
           <Home />
           <About />
           <Events />
-          <OurTeam />
+          {/* <OurTeam /> */}
+          <DemTeam />
           <Statestics />
           <Connect />
           <Footer />
