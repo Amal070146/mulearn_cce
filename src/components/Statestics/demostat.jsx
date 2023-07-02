@@ -4,11 +4,10 @@ import logo from "../../assets/logo-large.png";
 
 import planet2 from "../../assets/Statistics-planet2.png";
 const Statestics = () => {
-  
   return (
     <div className="Statestics-wrapper" data-aos="fade-up">
       <h1>CCE Statistics</h1>
-      <div className="planet-wrapper">
+      {/* <div className="planet-wrapper">
 
         <img className="planet-statistics" src={planet2} alt="" />
         <section className="spheres">
@@ -16,8 +15,18 @@ const Statestics = () => {
             <span className="shadow"></span>
           </figure>
         </section>
+      </div> */}
+      <div id="universe">
+        <div id="galaxy">
+          <div id="sun"></div>
+
+          <div id="mercury" class="orbit">
+            <div class="pos">
+              <div class="planet"></div>
+            </div>
+          </div>
+        </div>
       </div>
-      
 
       <div className="statestics-content-wrapper">
         <div className="statestics-content-left">
