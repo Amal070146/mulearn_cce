@@ -18,9 +18,9 @@ const About = () => {
             can do as a team? Come, witness it by yourself!
           </p>
         </div>
-        <div className="pathway-arch">
-          <div class="hemisphere"></div>
-          <div className="about-content-wrapper">
+        <div className="sampleWrapper">
+          <div className="pathway-arch">
+            <div class="hemisphere"></div>
             <div className="about-individual-wrapper set1">
               <div className="track-about-div">
                 <img src={person} alt="" />
